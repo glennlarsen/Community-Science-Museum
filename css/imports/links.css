@@ -1,0 +1,28 @@
+@import "imports/variables.css";
+
+/*Global links*/
+a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--text-link), Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+}
+
+/*Call to action*/
+.cta {
+  background-color: var(--light-blue);
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.cta-header {
+  float: right;
+  margin-top: 5px;
+  margin-right: 3%;
+}
+
+.first-icon,
+.button-text,
+.last-icon {
+  padding: 0 7px;
+}

@@ -1,0 +1,88 @@
+/*Header Image*/
+header {
+  background: url(../images/explore.jpg) no-repeat;
+  background-size: cover;
+}
+
+/*Main Sections*/
+h2,
+h3 {
+  text-align: center;
+}
+
+h3 {
+  color: var(--dark-green);
+}
+
+.kids {
+  background: radial-gradient(var(--darker-blue), var(--dark-green) 80%)
+    no-repeat;
+  padding: 40px 0 50px 0;
+}
+
+.teachers {
+  background-color: white;
+  padding: 40px 0 50px 0;
+}
+
+.researchers {
+  background: radial-gradient(var(--darker-blue), var(--dark-blue) 80%)
+    no-repeat;
+  padding: 40px 0 50px 0;
+}
+
+.explore-more {
+  background: white;
+  padding: 40px 50px 50px 50px;
+}
+
+.text-content {
+  padding: 15px;
+  padding-bottom: 40px;
+}
+
+.bold-pharagraph {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.top-line {
+  border: 3px solid #1a5177;
+}
+
+.bottom-line {
+  border: 3px solid #07102c;
+}
+
+.line {
+  margin: 20px 0;
+}
+
+.circle img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.circle-section {
+  padding-top: 10px;
+}
+
+.circle {
+  padding: 20px 0;
+  position: relative;
+  text-align: center;
+}
+
+.flex-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
