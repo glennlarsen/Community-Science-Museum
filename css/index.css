@@ -47,16 +47,17 @@ h3 {
 }
 
 .top-line {
-  border: 3px solid #1a5177;
+  border: 5px solid #1a5177;
 }
 
 .bottom-line {
-  border: 3px solid #07102c;
+  border: 5px solid #07102c;
 }
 
 .line {
   margin: 20px 0;
   height: 0px;
+  border-top: 0;
 }
 
 .circle img {
