@@ -70,15 +70,17 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  position: relative;
 }
 
 nav {
   display: none;
   background: linear-gradient(var(--darker-blue), var(--dark-blue));
-  position: fixed;
+  position: absolute;
   width: 100%;
   right: 0px;
-  top: 65px;
+  top: 64px;
+  z-index: 100;
 }
 
 li {
@@ -121,13 +123,18 @@ header {
   color: white;
   display: flex;
   align-items: flex-end;
-  min-height: 60vh;
+  min-height: 65vh;
 }
 
 .shadow-box {
   padding: 0 10px;
   background-color: rgba(80, 80, 80, 0.6);
   width: 100%;
+  position: relative;
+}
+
+.header-content {
+    margin-bottom: 76px;
 }
 
 .highlight {

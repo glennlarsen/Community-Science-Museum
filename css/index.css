@@ -1,6 +1,6 @@
 /*Header Image*/
 header {
-  background: url(../images/explore.jpg) no-repeat;
+  background: url(../images/explore.jpg) center, no-repeat;
   background-size: cover;
 }
 
