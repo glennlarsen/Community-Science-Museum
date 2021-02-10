@@ -134,7 +134,7 @@ header {
 }
 
 .header-content {
-    margin-bottom: 76px;
+    margin-bottom: 80px;
 }
 
 .highlight {
@@ -195,6 +195,22 @@ hr {
 .social-media i {
   font-size: 2rem;
   cursor: pointer;
+}
+
+.fa-facebook-square {
+    color: #4267B2;
+}
+
+.fa-instagram-square {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+.fa-twitter-square {
+    color: #1DA1F2;
 }
 
 .copyrights {
