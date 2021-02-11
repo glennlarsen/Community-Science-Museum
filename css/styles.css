@@ -151,6 +151,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding-bottom: 15px;
+  position: relative;
 }
 
 footer,
@@ -212,6 +213,16 @@ hr {
 .fa-twitter-square {
     color: #1DA1F2;
 }
+
+.to-top i {
+    font-size: 2rem;
+    color: var(--light-blue);
+    position: absolute;
+    right: 20px;
+    bottom: 45px;
+    -webkit-font-smoothing: antialiased;
+}
+
 
 .copyrights {
   font-size: x-small;
