@@ -46,3 +46,7 @@ li:hover {
 .fa-chevron-right {
   vertical-align: super;
 }
+
+.fa-sign-in-alt {
+    vertical-align: baseline;
+}
