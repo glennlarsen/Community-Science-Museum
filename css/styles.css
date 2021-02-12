@@ -175,7 +175,11 @@ header {
 }
 
 .header-content {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+}
+
+.header-content_home {
+  margin-bottom: 85px;
 }
 
 .highlight {
