@@ -188,6 +188,38 @@ header {
   font-weight: bold;
 }
 
+.header-corner_box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 200px;
+    background: white;
+    color: var(--light-blue);
+    font-size: small;
+    font-style: italic;
+    padding: 117px;
+    border-radius: 0 0 0 100%;
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header-box_quote {
+    position: absolute;
+    top: 20px;
+    max-width: 72%;
+    left: 56px;
+}
+
+.header-box_quoter {
+    position: absolute;
+    top: 148px;
+    max-width: 72%;
+    left: 112px;
+    font-weight: bold;
+    font-style: normal;
+}
+
 /*Footer*/
 
 footer {

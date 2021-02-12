@@ -21,6 +21,10 @@
     margin-bottom: 20px;
   }
 
+  .header-corner_box {
+    display: flex;
+  }
+
   /*Main Section*/
   .flex-section {
     max-width: 850px;
