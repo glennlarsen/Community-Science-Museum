@@ -3,3 +3,54 @@
       scroll-behavior: smooth;
     }
   }
+
+  @media (min-width: 900px) {
+      /*Header*/
+      .cta-header {
+          left: auto;
+          right: 60px;
+      }
+
+      .header-content {
+          max-width: 60%;
+          margin-bottom: 20px;
+      }
+
+      /*Main Section*/
+      .flex-section {
+          max-width: 850px;
+          margin: auto;
+          flex-direction: row-reverse;
+      }
+
+      .flex-section_row {
+          flex-direction: row;
+      }
+
+      .flex-section > * {
+          flex: 1;
+          margin: 0 20px;
+      }
+  }
+
+  @media (min-width: 1225px) {
+      /*Global*/
+      html, p {
+          font-size: 100%;
+      }
+      /*Header*/
+      .cta-header {
+        right: 160px;
+    }
+
+    /*Main Section*/
+    .flex-section {
+        max-width: 1150px;
+    }
+
+    /*Footer*/
+    .flex-footer, hr {
+        width: 1150px;
+        margin: auto;
+    }
+  }

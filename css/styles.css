@@ -36,6 +36,11 @@ body {
   color: white;
 }
 
+.container {
+    max-width: 85rem;
+    margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -73,6 +78,42 @@ img {
   position: relative;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo > span {
+    padding-left: 10px;
+    font-size: smaller;
+  }
+  
+  .regular {
+    font-family: Primus Regular, Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .logo img {
+    width: 50px;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  .fa-bars:hover {
+    transition: 0.3s;
+    transform: scale(1.4);
+  }
+  
+  #hamburger-menu:checked ~ nav {
+    display: block;
+  }
+  
+  .fa-bars {
+    padding: 10px;
+    font-size: x-large;
+  }
+
 nav {
   display: none;
   background: linear-gradient(var(--darker-blue), var(--dark-blue));
@@ -83,38 +124,19 @@ nav {
   z-index: 100;
 }
 
-li {
-  padding: 20px;
+nav a:hover {
+    transition: 0.3s;
+    transform: scaleY(1.5);
 }
 
-.logo {
-  display: flex;
-  align-items: center;
+nav li {
+    display: block;
 }
 
-.logo > span {
-  padding-left: 10px;
-  font-size: smaller;
-}
-
-.regular {
-  font-family: Primus Regular, Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.logo img {
-  width: 50px;
-}
-
-#hamburger-menu {
-  display: none;
-}
-
-#hamburger-menu:checked ~ nav {
+li a {
+  padding: 21px;
   display: block;
-}
-
-.fa-bars {
-  padding: 10px;
+  font-size: larger;
 }
 
 /*Top header*/
@@ -123,7 +145,7 @@ header {
   color: white;
   display: flex;
   align-items: flex-end;
-  min-height: 65vh;
+  min-height: 593px;
 }
 
 .shadow-box {
@@ -175,6 +197,10 @@ footer,
   font-size: small;
 }
 
+footer a:hover {
+    text-decoration: underline;
+  }
+
 .bottom-logo {
   margin-top: 15px;
 }
@@ -188,13 +214,13 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 7rem;
+  width: 10rem;
   margin: 2rem;
   align-self: center;
 }
 
 .social-media i {
-  font-size: 2rem;
+  font-size: 3rem;
   cursor: pointer;
 }
 
@@ -223,6 +249,11 @@ hr {
     -webkit-font-smoothing: antialiased;
 }
 
+.fa-facebook-square:hover, .fa-instagram-square:hover, .fa-twitter-square:hover, .to-top i:hover {
+    color: rgba(37, 37, 37, 0.1);
+    background: rgba(37, 37, 37, 0.1);
+    -webkit-background-clip: text;
+}
 
 .copyrights {
   font-size: x-small;
