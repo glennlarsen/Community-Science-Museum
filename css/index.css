@@ -10,7 +10,7 @@ h3 {
   text-align: center;
 }
 
-h3 {
+.explore-more h2 {
   color: var(--dark-green);
 }
 
@@ -28,8 +28,10 @@ h3 {
     no-repeat;
 }
 
-.kids, .teachers, .researchers {
-    padding: 40px 0 50px 0;
+.kids,
+.teachers,
+.researchers {
+  padding: 40px 0 50px 0;
 }
 
 .explore-more {
@@ -63,12 +65,12 @@ h3 {
 }
 
 .flex-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    min-height: 600px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 600px;
+}
 
 .circle-section {
   padding-top: 10px;
@@ -81,15 +83,15 @@ h3 {
 }
 
 .circle img {
-    width: 230px;
-    border-radius: 50%;
-    box-shadow: 3px 2px 50px rgb(0 0 0 / 50%);
-  }
+  width: 230px;
+  border-radius: 50%;
+  box-shadow: 3px 2px 50px rgb(0 0 0 / 50%);
+}
 
 .circle:hover img {
-    border: 5px solid var(--darker-blue);
-    transition: 0.3s;
-    transform: scale(1.1);
+  border: 5px solid var(--darker-blue);
+  transition: 0.3s;
+  transform: scale(1.1);
 }
 
 .centered {

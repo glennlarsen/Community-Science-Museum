@@ -1,9 +1,9 @@
 :root {
-    --text-pharagraph: "Montserrat";
-    --text-heading: "Primus Bold";
-    --text-link: "Primus SemiBold";
-    --light-blue: #38BFF5;
-    --darker-blue: #31A3D1;
-    --dark-blue: #03011C;
-    --dark-green: #185269;
-  }
+  --text-pharagraph: "Montserrat";
+  --text-heading: "Primus Bold";
+  --text-link: "Primus SemiBold";
+  --light-blue: #38bff5;
+  --darker-blue: #31a3d1;
+  --dark-blue: #03011c;
+  --dark-green: #185269;
+}

@@ -4,7 +4,7 @@
 a {
   text-decoration: none;
   color: white;
-  font-family: var(--text-link), Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--text-heading), Verdana, Geneva, Tahoma, sans-serif;
   text-transform: capitalize;
 }
 
@@ -19,7 +19,6 @@ a {
 .cta:hover {
   background-color: white;
   color: var(--light-blue);
-  border-left-color: var(--light-blue);
   transition: 0.7s;
 }
 
