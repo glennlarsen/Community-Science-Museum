@@ -8,6 +8,18 @@ a {
   text-transform: capitalize;
 }
 
+/*Navigation Links*/
+li a {
+  padding: 21px;
+  display: block;
+  font-size: larger;
+}
+
+nav a:hover {
+  transition: 0.3s;
+  transform: scaleY(1.5);
+}
+
 /*Call to action*/
 .cta {
   background-color: var(--light-blue);
@@ -54,4 +66,67 @@ a {
 
 .fa-sign-in-alt {
   vertical-align: baseline;
+}
+
+/*Footer Links*/
+.footer-links {
+  margin: 15px 15px 0 15px;
+}
+
+.footer-links > * {
+  font-family: var(--text-pharagraph);
+  display: block;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.fa-facebook-square {
+  color: #4267b2;
+}
+
+.fa-instagram-square {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-twitter-square {
+  color: #1da1f2;
+}
+
+.to-top i {
+  font-size: 2rem;
+  color: var(--light-blue);
+  position: absolute;
+  right: 20px;
+  bottom: 45px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-facebook-square:hover,
+.fa-instagram-square:hover,
+.fa-twitter-square:hover,
+.to-top i:hover {
+  color: rgba(37, 37, 37, 0.1);
+  background: rgba(37, 37, 37, 0.1);
+  -webkit-background-clip: text;
 }

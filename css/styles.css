@@ -68,7 +68,7 @@ h4 {
 
 p {
   font-family: var(--text-pharagraph);
-  font-size: small;
+  font-size: 0.94em;
 }
 
 .text-black {
@@ -136,19 +136,8 @@ nav {
   z-index: 100;
 }
 
-nav a:hover {
-  transition: 0.3s;
-  transform: scaleY(1.5);
-}
-
 nav li {
   display: block;
-}
-
-li a {
-  padding: 21px;
-  display: block;
-  font-size: larger;
 }
 
 /*Top header*/
@@ -189,35 +178,35 @@ header {
 }
 
 .header-corner_box {
-    position: absolute;
-    right: 0;
-    top: 0;
-    max-width: 200px;
-    background: white;
-    color: var(--light-blue);
-    font-size: small;
-    font-style: italic;
-    padding: 117px;
-    border-radius: 0 0 0 100%;
-    display: none;
-    flex-direction: column;
-    align-items: flex-end;
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 200px;
+  background: white;
+  color: var(--light-blue);
+  font-size: small;
+  font-style: italic;
+  padding: 117px;
+  border-radius: 0 0 0 100%;
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .header-box_quote {
-    position: absolute;
-    top: 20px;
-    max-width: 72%;
-    left: 56px;
+  position: absolute;
+  top: 20px;
+  max-width: 72%;
+  left: 56px;
 }
 
 .header-box_quoter {
-    position: absolute;
-    top: 148px;
-    max-width: 72%;
-    left: 112px;
-    font-weight: bold;
-    font-style: normal;
+  position: absolute;
+  top: 148px;
+  max-width: 72%;
+  left: 112px;
+  font-weight: bold;
+  font-style: normal;
 }
 
 /*Footer*/
@@ -230,8 +219,7 @@ footer {
   position: relative;
 }
 
-footer,
-.footer-links > * {
+footer {
   color: black;
 }
 
@@ -239,19 +227,6 @@ footer,
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.footer-links {
-  margin: 15px 15px 0 15px;
-}
-
-.footer-links > * {
-  font-family: var(--text-pharagraph);
-  display: block;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 .bottom-logo {
@@ -275,54 +250,6 @@ hr {
 .social-media i {
   font-size: 3rem;
   cursor: pointer;
-}
-
-.fa-facebook-square {
-  color: #4267b2;
-}
-
-.fa-instagram-square {
-  color: transparent;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-  background: -webkit-radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
-.fa-twitter-square {
-  color: #1da1f2;
-}
-
-.to-top i {
-  font-size: 2rem;
-  color: var(--light-blue);
-  position: absolute;
-  right: 20px;
-  bottom: 45px;
-  -webkit-font-smoothing: antialiased;
-}
-
-.fa-facebook-square:hover,
-.fa-instagram-square:hover,
-.fa-twitter-square:hover,
-.to-top i:hover {
-  color: rgba(37, 37, 37, 0.1);
-  background: rgba(37, 37, 37, 0.1);
-  -webkit-background-clip: text;
 }
 
 .copyrights {
