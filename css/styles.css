@@ -54,8 +54,9 @@ h1 {
   font-size: 2.3em;
 }
 
-h2 {
+h2, h3 {
   font-size: 2em;
+  text-align: center;
 }
 
 h3 {
@@ -217,6 +218,7 @@ footer {
   flex-direction: column;
   padding-bottom: 15px;
   position: relative;
+  padding-top: 3em;
 }
 
 footer {
