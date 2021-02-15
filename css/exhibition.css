@@ -58,8 +58,3 @@ header {
 #dropdown-text:checked ~ .fa-angle-double-down {
   display: none;
 }
-
-.exhibition-section i:hover {
-  transition: 0.3s;
-  transform: scale(1.1);
-}
