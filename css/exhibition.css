@@ -7,7 +7,10 @@ header {
 /*Main Section*/
 .exhibition-container {
   background-color: white;
-  padding: 1em;
+  padding: 2em 1em 2.1em;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3em;
 }
 
 .exhibition-section {
@@ -46,8 +49,22 @@ header {
   color: var(--dark-green);
 }
 
+.biomed-small {
+  display: none;
+}
+
+.circle {
+  padding: 1em 0;
+}
+
 .circle img {
   box-shadow: 3px 2px 23px rgb(0 0 0 / 50%);
+}
+
+.circle-and-exhibition-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .fa-angle-double-down,
@@ -57,7 +74,6 @@ header {
   left: 50%;
   margin-left: -15px;
   font-size: 3em;
-  color: var(--darker-blue);
 }
 
 .fa-angle-double-up {
@@ -68,7 +84,11 @@ header {
   display: none;
 }
 
-#dropdown-text, #dropdown-text2, #dropdown-text3, #dropdown-text4, #dropdown-text5 {
+#dropdown-text,
+#dropdown-text2,
+#dropdown-text3,
+#dropdown-text4,
+#dropdown-text5 {
   display: none;
 }
 
@@ -83,7 +103,6 @@ header {
 #dropdown-text5:checked ~ .exhibition-text,
 #dropdown-text5:checked ~ .fa-angle-double-up {
   display: block;
-  opacity: 1;
 }
 
 #dropdown-text:checked ~ .fa-angle-double-down,

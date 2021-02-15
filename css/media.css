@@ -4,6 +4,16 @@
   }
 }
 
+/*Exhibitions page Biology and medicine titles for very small screens*/
+@media (max-width: 359px) {
+  .biomed-small {
+    display: block;
+  }
+  .biomed-big {
+    display: none;
+  }
+}
+
 @media (min-width: 900px) {
   /*Navigation bar*/
   .logo span {
@@ -99,6 +109,37 @@
   .contact-button {
     font-size: 100%;
   }
+
+  /*Main section exhibits*/
+  .exhibition-section {
+    margin: auto;
+    max-width: 881px;
+  }
+
+  .exhibition-text {
+    display: block;
+  }
+
+  .circle-and-exhibition-text {
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .circle-and-exhibition-text > * {
+    padding: 1em;
+  }
+
+  .fa-angle-double-down,
+  .fa-angle-double-up {
+    display: none;
+    opacity: 0;
+  }
+
+  .exi-titles {
+    text-align: left;
+    align-self: baseline;
+    margin-left: 37%;
+  }
 }
 
 @media (min-width: 1225px) {
@@ -174,5 +215,58 @@
   hr {
     width: 1150px;
     margin: auto;
+  }
+
+  /*Main section exhibits*/
+
+  .exhibition-container {
+    row-gap: 5em;
+    padding-top: 3em;
+  }
+
+  .exhibition-section {
+    max-width: 1125px;
+    position: relative;
+  }
+
+  .circle-and-exhibition-text img {
+    width: 280px;
+    margin-bottom: 3em;
+  }
+
+  .circle-and-exhibition-text {
+    gap: 7em;
+  }
+
+  .exi-titles {
+    margin-left: 36%;
+    position: absolute;
+  }
+
+  .evolution-content,
+  .robotics-content {
+    flex-direction: row-reverse;
+  }
+
+  .cos-title {
+    top: 4%;
+  }
+
+  .evo-title {
+    margin-left: 3%;
+    top: -4%;
+  }
+
+  .bio-title {
+    top: -8%;
+  }
+
+  .robot-title {
+    margin-left: 3%;
+    top: 16%;
+  }
+
+  .eco-title {
+    top: 3%;
   }
 }
