@@ -210,6 +210,25 @@ header {
   font-style: normal;
 }
 
+/*circle images*/
+.circle {
+  padding: 20px 0;
+  position: relative;
+  max-width: 230px;
+}
+
+.circle img {
+  width: 230px;
+  border-radius: 50%;
+  box-shadow: 3px 2px 50px rgb(0 0 0 / 50%);
+}
+
+.circle:hover img {
+  border: 5px solid var(--darker-blue);
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
 /*Footer*/
 
 footer {
