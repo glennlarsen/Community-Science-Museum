@@ -14,6 +14,12 @@
   }
 }
 
+@media (min-width: 1500px) {
+  .container {
+    margin-bottom: 4em;
+  }
+}
+
 @media (min-width: 900px) {
   /*Navigation bar*/
   .logo span {
@@ -303,8 +309,3 @@
 
 }
 
-@media (min-width: 1500px) {
-  .container {
-    margin-bottom: 4em;
-  }
-}

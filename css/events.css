@@ -1,28 +1,28 @@
 /*Header Image*/
 header {
-    background: url(../images/events.jpg) center, no-repeat;
-    background-size: cover;
-  }
+  background: url(../images/events.jpg) center, no-repeat;
+  background-size: cover;
+}
 
-  /*Main section*/
-  .background-container-ex {
-    background: linear-gradient(var(--darker-blue), var(--dark-blue));
-    padding-bottom: 1em;
-  }
+/*Main section*/
+.background-container-ex {
+  background: linear-gradient(var(--darker-blue), var(--dark-blue));
+  padding-bottom: 1em;
+}
 
-  .ex-section {
-    padding: 2em 0;
-  }
+.ex-section {
+  padding: 2em 0;
+}
 
-  .flex-section-ex {
-    display: flex;
-    flex-direction: column;
-  }
+.flex-section-ex {
+  display: flex;
+  flex-direction: column;
+}
 
-  .text-content-ex {
-    padding: 1em;
-  }
+.text-content-ex {
+  padding: 1em;
+}
 
-  .text-content-ex > p{
-    padding-top: 1em;
-  }
+.text-content-ex > p {
+  padding-top: 1em;
+}

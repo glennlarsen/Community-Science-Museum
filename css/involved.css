@@ -3,3 +3,20 @@ header {
     background: url(../images/involved.jpg) center, no-repeat;
     background-size: cover;
   }
+
+  /*Main section*/
+  .background-container-involve {
+    background-color: white;
+  }
+
+  .icon-involve {
+
+  }
+
+  .text-content-involve span {
+    font-weight: bold;
+  }
+
+.section-involve {
+  padding: 1em;
+}
