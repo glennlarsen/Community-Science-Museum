@@ -1,22 +1,37 @@
 /*Header Image*/
 header {
-    background: url(../images/involved.jpg) center, no-repeat;
-    background-size: cover;
-  }
+  background: url(../images/involved.jpg) center, no-repeat;
+  background-size: cover;
+}
 
-  /*Main section*/
-  .background-container-involve {
-    background-color: white;
-  }
+/*Main section*/
+.background-container-involve {
+  background-color: white;
+}
 
-  .icon-involve {
+.icon-involve {
+  width: 233px;
+}
 
-  }
+.text-content-involve > * {
+  padding: 0.5em 0;
+}
 
-  .text-content-involve span {
-    font-weight: bold;
-  }
+.text-content-involve span {
+  font-weight: bold;
+}
+
+.text-content-involve h2 {
+  background: linear-gradient(var(--darker-blue) 35%, var(--dark-blue) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .section-involve {
-  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 1em;
 }
