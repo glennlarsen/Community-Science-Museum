@@ -5,7 +5,7 @@
 }
 
 /*Exhibitions page Biology and medicine titles for very small screens*/
-@media (max-width: 372px) {
+@media (max-width: 375px) {
   .biomed-small {
     display: block;
   }
@@ -144,6 +144,29 @@
   .robot-title {
     position: absolute;
   }
+
+  /*Main section events*/
+  .flex-section-ex {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .flex-section-ex >* {
+    padding: 2em;
+  }
+
+  .text-content-ex {
+    flex: 1;
+  }
+
+  .image-container-ex {
+    flex: 1;
+  }
+
+  .text-content-ex h2 {
+    text-align: left;
+  }
+
 }
 
 @media (min-width: 1225px) {

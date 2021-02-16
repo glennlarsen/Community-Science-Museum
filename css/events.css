@@ -5,25 +5,24 @@ header {
   }
 
   /*Main section*/
-  .background-container {
+  .background-container-ex {
     background: linear-gradient(var(--darker-blue), var(--dark-blue));
-    padding-bottom: 3em;
+    padding-bottom: 1em;
   }
 
-  .flex-container {
-    display: flex;
-    flex-direction: column;
+  .ex-section {
     padding: 2em 0;
   }
 
-  .text-content {
+  .flex-section-ex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-content-ex {
     padding: 1em;
   }
 
-  .text-content > p{
+  .text-content-ex > p{
     padding-top: 1em;
-  }
-
-  .image-container {
-    padding-bottom: 2em;
   }
