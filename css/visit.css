@@ -92,22 +92,4 @@ table th {
   font-style: normal;
 }
 
-.info-line {
-  border: 1px solid white;
-  margin: auto;
-  max-width: 65%;
-  opacity: 0.7;
-}
 
-.contact-button {
-  text-align: center;
-  padding: 2em 0;
-}
-
-.contact-button > * {
-  margin: 1em 0;
-}
-
-.fa-envelope {
-  margin-left: 0.5em;
-}

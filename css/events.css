@@ -3,3 +3,27 @@ header {
     background: url(../images/events.jpg) center, no-repeat;
     background-size: cover;
   }
+
+  /*Main section*/
+  .background-container {
+    background: linear-gradient(var(--darker-blue), var(--dark-blue));
+    padding-bottom: 3em;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+  }
+
+  .text-content {
+    padding: 1em;
+  }
+
+  .text-content > p{
+    padding-top: 1em;
+  }
+
+  .image-container {
+    padding-bottom: 2em;
+  }

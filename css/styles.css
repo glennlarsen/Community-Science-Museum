@@ -80,6 +80,13 @@ img {
   width: 100%;
 }
 
+.section-line {
+  border: 1px solid white;
+  margin: auto;
+  max-width: 65%;
+  opacity: 0.7;
+}
+
 /*Navigation bar*/
 
 .nav_bar {
