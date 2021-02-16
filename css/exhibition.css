@@ -10,7 +10,7 @@ header {
   padding: 2em 1em 2.1em;
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 3em;
+  row-gap: 5em;
 }
 
 .exhibition-section {

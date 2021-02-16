@@ -140,6 +140,10 @@
     align-self: baseline;
     margin-left: 37%;
   }
+
+  .robot-title {
+    position: absolute;
+  }
 }
 
 @media (min-width: 1225px) {
@@ -220,7 +224,6 @@
   /*Main section exhibits*/
 
   .exhibition-container {
-    row-gap: 5em;
     padding-top: 3em;
   }
 
