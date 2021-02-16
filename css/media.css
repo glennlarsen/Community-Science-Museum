@@ -176,10 +176,6 @@
     font-size: 100%;
   }
 
-  .container {
-    margin-bottom: 4em;
-  }
-
   /*Header*/
   .cta-header {
     right: 160px;
@@ -294,5 +290,21 @@
 
   .eco-title {
     top: 3%;
+  }
+
+  /*Main section events*/
+  .flex-section-ex >* {
+    padding: 5em;
+  }
+
+  .ex-section {
+    padding: 0 5em;
+  }
+
+}
+
+@media (min-width: 1500px) {
+  .container {
+    margin-bottom: 4em;
   }
 }
