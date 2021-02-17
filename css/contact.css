@@ -1,5 +1,54 @@
 /*Header Image*/
 header {
-    background: url(../images/contact.jpg) center, no-repeat;
-    background-size: cover;
-  }
+  background: url(../images/contact.jpg) center, no-repeat;
+  background-size: cover;
+}
+
+/*Main Section*/
+.white-box {
+  display: block;
+  font-size: 100%;
+  color: var(--dark-green);
+  font-weight: bold;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content input:not(:last-of-type),
+textarea {
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 1px solid grey;
+}
+
+.form-content input:not(:last-of-type):focus,
+textarea:focus {
+  outline: none !important;
+  border: 1px solid var(--light-blue);
+}
+
+.form-content textarea {
+  height: 65%;
+  min-height: 130px;
+}
+
+.info-title {
+  color: var(--darker-blue);
+  text-transform: capitalize;
+}
+
+.white-box-info >* {
+  padding-bottom: 1em;
+}
+
+.white-box-info p {
+  color: black;
+  font-weight: normal;
+}
+
+.white-box-info h2 {
+  text-align: left;
+}

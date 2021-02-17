@@ -5,32 +5,14 @@ header {
 }
 
 /*Main Section*/
-.visit-boxes {
-  background-color: white;
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
-}
-
-.visit-box {
-  -webkit-box-shadow: 1px 1px 8px 2px rgb(0 0 0 / 25%);
-  box-shadow: 1px 1px 8px 2px rgb(0 0 0 / 25%);
-  padding: 1em;
-  margin: 0.5em 0em 1.5em;
-  display: flex;
-  font-size: small;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.visit-box i,
-.visit-box h4,
+.white-box i,
+.white-box h4,
 .info-list h4 {
   font-size: xx-large;
   color: var(--light-blue);
 }
 
-.visit-box h4,
+.white-box h4,
 .info-list h4 {
   font-size: large;
 }
@@ -44,10 +26,6 @@ table th {
   text-align: left;
   font-weight: 500;
   padding-right: 1em;
-}
-
-.address-space {
-  margin-bottom: 2em;
 }
 
 /*Main Section green*/

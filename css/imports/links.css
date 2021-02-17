@@ -26,6 +26,7 @@ nav a:hover {
   padding: 15px 20px;
   text-align: center;
   font-size: 1.2rem;
+  border: none;
 }
 
 .cta:hover {
@@ -87,7 +88,7 @@ nav a:hover {
 }
 
 .cta-involve {
-  background-color: white;
+  background-color: transparent;
   border: solid 10px var(--light-blue);
   color: var(--dark-green);
   display: inline-block;
@@ -113,6 +114,14 @@ nav a:hover {
   background-color: var(--light-blue);
   color: white;
   transition: 0.7s;
+}
+
+.cta-contact {
+  align-self: flex-start;
+  font-weight: bold;
+  padding: 1em 2em;
+  font-size: 1.2em;
+  border-width: 3px;
 }
 
 /*Footer Links*/
