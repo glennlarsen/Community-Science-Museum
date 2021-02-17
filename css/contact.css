@@ -5,6 +5,11 @@ header {
 }
 
 /*Main Section*/
+
+.background-container-contact {
+  background-color: white;
+}
+
 .white-box {
   display: block;
   font-size: 100%;

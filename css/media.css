@@ -182,7 +182,11 @@
   }
 
   /*Main section contact us*/
-  
+  .white-box-info {
+    background: url(../images/balls.jpg) no-repeat;
+    background-position-x: 65%;
+    background-size: contain;
+  }
 }
 
 @media (min-width: 1225px) {
@@ -333,6 +337,13 @@
   .contact-border-button {
     align-self: center;
   }
+
+  /*Main Section Contact Us*/
+  .white-boxes-info {
+    max-width: 1160px;
+    margin: auto;
+  }
+
 }
 
 @media (min-width: 1500px) {
