@@ -4,19 +4,18 @@
   }
 }
 
-/*Exhibitions page Biology and medicine titles for very small screens*/
+/*very small screens*/
 @media (max-width: 375px) {
+  /*bio and medicine title*/
   .biomed-small {
     display: block;
   }
   .biomed-big {
     display: none;
   }
-}
-
-@media (min-width: 1500px) {
-  .container {
-    margin-bottom: 4em;
+  /*Contact button on get involved page*/
+  .cta-involve {
+    padding: 2em 1.2em;
   }
 }
 
@@ -157,7 +156,7 @@
     align-items: center;
   }
 
-  .flex-section-ex >* {
+  .flex-section-ex > * {
     padding: 2em;
   }
 
@@ -173,6 +172,14 @@
     text-align: left;
   }
 
+  /*Main section get involved*/
+  .text-content-involve {
+    max-width: 50%;
+  }
+
+  .cta-involve {
+    padding: 2em 3em;
+  }
 }
 
 @media (min-width: 1225px) {
@@ -299,7 +306,7 @@
   }
 
   /*Main section events*/
-  .flex-section-ex >* {
+  .flex-section-ex > * {
     padding: 5em;
   }
 
@@ -307,5 +314,26 @@
     padding: 0 5em;
   }
 
+  /*Main section get involved*/
+  .flex-container-involve {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: baseline;
+    max-width: 1160px;
+    margin: auto;
+  }
+
+  .text-content-involve {
+    max-width: 85%;
+  }
+
+  .contact-border-button {
+    align-self: center;
+  }
 }
 
+@media (min-width: 1500px) {
+  .container {
+    margin-bottom: 4em;
+  }
+}

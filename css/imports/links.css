@@ -86,6 +86,35 @@ nav a:hover {
   padding: 15px 40px;
 }
 
+.cta-involve {
+  background-color: white;
+  border: solid 10px var(--light-blue);
+  color: var(--dark-green);
+  display: inline-block;
+  cursor: pointer;
+  font-family: var(--text-pharagraph);
+  text-transform: capitalize;
+  font-size: 2em;
+  padding: 2em 2em;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.cta-involve-line {
+  border: solid 1px;
+  width: 65%;
+  margin: 1em auto 0;
+  color: var(--light-blue);
+  z-index: 100;
+}
+
+.cta-involve:hover,
+.cta-involve:hover .cta-involve-line {
+  background-color: var(--light-blue);
+  color: white;
+  transition: 0.7s;
+}
+
 /*Footer Links*/
 .footer-links {
   margin: 15px 15px 0 15px;

@@ -9,6 +9,12 @@ header {
   background-color: white;
 }
 
+.flex-container-involve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .icon-involve {
   width: 233px;
 }
@@ -34,4 +40,13 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 3em 1em;
+}
+
+.contact-border-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4em auto;
+  -webkit-box-shadow: 0 62px 46px -49px rgb(0 0 0 / 20%);
+  box-shadow: 0 62px 46px -49px rgb(0 0 0 / 20%);
 }
