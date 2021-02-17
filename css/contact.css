@@ -51,4 +51,5 @@ textarea:focus {
 
 .white-box-info h2 {
   text-align: left;
+  padding-bottom: 0.5em;
 }
