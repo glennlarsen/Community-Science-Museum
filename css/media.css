@@ -264,24 +264,30 @@
 
   .exhibition-container {
     padding-top: 3em;
+    row-gap: 5em;
   }
 
   .exhibition-section {
     max-width: 1125px;
     position: relative;
-  }
-
-  .circle-and-exhibition-text img {
-    width: 280px;
-    margin-bottom: 3em;
+    min-height: 456px;
   }
 
   .circle-and-exhibition-text {
     gap: 7em;
+    min-height: 450px;
+  }
+
+  .circle-and-exhibition-text img {
+    width: 280px;
+  }
+
+  .exhibition-text {
+    padding-top: 4em;
   }
 
   .exi-titles {
-    margin-left: 36%;
+    margin-left: 40.5%;
     position: absolute;
   }
 
@@ -291,25 +297,25 @@
   }
 
   .cos-title {
-    top: 4%;
+    top: 18%;
   }
 
   .evo-title {
-    margin-left: 3%;
-    top: -4%;
+    margin-left: 2.5%;
+    top: 12%;
   }
 
   .bio-title {
-    top: -8%;
+    top: 3%;
   }
 
   .robot-title {
-    margin-left: 3%;
-    top: 16%;
+    margin-left: 2.8%;
+    top: 28%;
   }
 
   .eco-title {
-    top: 3%;
+    top: 19%;
   }
 
   /*Main section events*/

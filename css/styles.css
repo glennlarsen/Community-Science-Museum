@@ -54,7 +54,8 @@ h1 {
   font-size: 2.3em;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-size: 2em;
   text-align: center;
 }
@@ -221,7 +222,7 @@ header {
 .circle {
   padding: 20px 0;
   position: relative;
-  max-width: 230px;
+  text-align: center;
 }
 
 .circle img {
@@ -234,7 +235,7 @@ header {
     border: 5px solid var(--darker-blue);
     transition: 0.3s;
     transform: scale(1.1);
-}
+  }
 }
 
 /*White boxes*/
