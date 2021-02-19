@@ -10,7 +10,7 @@ header {
 }
 
 .kids {
-  background: radial-gradient(var(--darker-blue), var(--dark-green) 80%)
+  background: radial-gradient(var(--darker-blue) -20%, var(--dark-green) 80%)
     no-repeat;
 }
 
@@ -19,7 +19,7 @@ header {
 }
 
 .researchers {
-  background: radial-gradient(var(--darker-blue), var(--dark-blue) 80%)
+  background: radial-gradient(var(--darker-blue) -25%, var(--dark-blue) 80%)
     no-repeat;
 }
 
