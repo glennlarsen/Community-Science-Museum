@@ -218,6 +218,7 @@
 
   .active {
     border-bottom: 5px solid white;
+    text-decoration: none;
   }
 
   li a:hover {

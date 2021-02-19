@@ -21,6 +21,10 @@ nav a:hover {
   transform: scaleY(1.5);
 }
 
+.active {
+  text-decoration: underline;
+}
+
 /*Call to action*/
 .cta {
   background-color: var(--light-blue);
