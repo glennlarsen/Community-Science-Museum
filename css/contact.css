@@ -40,11 +40,6 @@ textarea:focus {
   min-height: 130px;
 }
 
-.info-title {
-  color: var(--darker-blue);
-  text-transform: capitalize;
-}
-
 .white-box-info >* {
   padding-bottom: 1em;
 }

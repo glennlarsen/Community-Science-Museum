@@ -196,6 +196,39 @@
     font-size: 100%;
   }
 
+  .nav_bar {
+    padding: 0 10px;
+  }
+
+  nav {
+    display: block;
+    position: static;
+    background: none;
+    width: auto;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  li a {
+    border-bottom: 5px solid transparent;
+    padding: 25px 0 20px 0;
+  }
+
+  .active {
+    border-bottom: 5px solid white;
+  }
+
+  li a:hover {
+    border-bottom: 5px solid white;
+    transform: none;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
   /*Header*/
   .cta-header {
     right: 160px;
@@ -349,7 +382,6 @@
     max-width: 1110px;
     margin: auto;
   }
-
 }
 
 @media (min-width: 1500px) {

@@ -7,14 +7,15 @@ header {
 /*Main Section*/
 .white-box i,
 .white-box h4,
-.info-list h4 {
+.info-list h3 {
   font-size: xx-large;
   color: var(--light-blue);
 }
 
 .white-box h4,
-.info-list h4 {
+.info-list h3 {
   font-size: large;
+  text-align: left;
 }
 
 .visit-box_content {
@@ -43,7 +44,7 @@ table th {
   margin: 10px;
 }
 
-.info-list h4 {
+.info-list h3 {
   display: list-item;
 }
 

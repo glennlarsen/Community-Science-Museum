@@ -10,7 +10,8 @@ a {
 
 /*Navigation Links*/
 li a {
-  padding: 21px;
+  margin: 0 20px;
+  padding: 20px 0;
   display: block;
   font-size: larger;
 }

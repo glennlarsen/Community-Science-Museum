@@ -163,7 +163,7 @@ header {
   padding: 0 10px;
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0) 45%,
     rgba(0, 0, 0, 1)
   );
   width: 100%;
@@ -192,7 +192,6 @@ header {
   top: 0;
   max-width: 200px;
   background: white;
-  color: var(--light-blue);
   font-size: small;
   font-style: italic;
   padding: 117px;
@@ -207,6 +206,8 @@ header {
   top: 20px;
   max-width: 72%;
   left: 56px;
+  color: var(--dark-blue);
+  font-weight: 500;
 }
 
 .header-box_quoter {
@@ -216,6 +217,7 @@ header {
   left: 112px;
   font-weight: bold;
   font-style: normal;
+  color: var(--darker-blue);
 }
 
 /*circle images*/
@@ -259,6 +261,13 @@ header {
 
 .address-space {
   margin-bottom: 2em;
+}
+
+.info-title {
+  color: var(--light-blue);
+  text-transform: capitalize;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 /*Footer*/
