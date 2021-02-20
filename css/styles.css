@@ -240,6 +240,12 @@ header {
   }
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .circle-green:hover img {
+    border: 5px solid var(--dark-green);
+  }
+}
+
 /*White boxes*/
 .white-boxes {
   background-color: white;
