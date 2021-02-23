@@ -111,6 +111,10 @@
     padding: 1em;
   }
 
+  .info-image p {
+    margin: 0;
+  }
+
   .contact-button {
     font-size: 100%;
   }
@@ -241,6 +245,13 @@
     max-width: 50%;
   }
 
+  /*Footer*/
+  .flex-footer,
+  hr {
+    width: 1150px;
+    margin: auto;
+  }
+
   /*Header visit page*/
   .header-content_visit {
     margin-bottom: 3em;
@@ -284,13 +295,6 @@
 
   .info-image_container {
     width: 70%;
-    margin: auto;
-  }
-
-  /*Footer*/
-  .flex-footer,
-  hr {
-    width: 1150px;
     margin: auto;
   }
 
@@ -382,6 +386,10 @@
   .white-boxes-info {
     max-width: 1110px;
     margin: auto;
+  }
+
+  .popup {
+    width: 30%;
   }
 }
 

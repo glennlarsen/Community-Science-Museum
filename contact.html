@@ -84,11 +84,7 @@
                 <input type="tel" id="phone" name="phone" />
                 <label for="message">Message</label>
                 <textarea name="message" id="message"></textarea>
-                <input
-                  type="submit"
-                  value="Send"
-                  class="cta-contact cta-involve"
-                />
+                <a href="#confirmation" class="cta-contact cta-involve">send</a>
               </div>
             </form>
           </section>
@@ -112,6 +108,17 @@
           </section>
         </div>
       </div>
+      <div id="confirmation" class="overlay">
+        <div class="popup">
+          <div>
+            <h2>your Message is sent!
+            </h2>
+              <div class="popup-button">
+                <a href="#" class="cta-contact cta-involve">close</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
       <footer>
         <hr />
