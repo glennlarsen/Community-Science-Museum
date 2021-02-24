@@ -13,9 +13,9 @@
       rel="stylesheet"
     />
     <script
-      src="https://kit.fontawesome.com/adec9b814a.js"
-      crossorigin="anonymous"
-    ></script>
+    src="https://kit.fontawesome.com/adec9b814a.js"
+    crossorigin="anonymous"
+  ></script>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/media.css" />
@@ -72,49 +72,52 @@
       </header>
       <main>
         <div class="background-container-contact">
-        <div class="white-boxes white-boxes-info text-black">
-          <section class="white-box">
-            <form method="POST">
-              <div class="form-content">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" />
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" />
-                <label for="phone">Phone</label>
-                <input type="tel" id="phone" name="phone" />
-                <label for="message">Message</label>
-                <textarea name="message" id="message"></textarea>
-                <a href="#confirmation" class="cta-contact cta-involve">send</a>
+          <div class="white-boxes white-boxes-info text-black">
+            <section id="form" class="white-box">
+              <form method="POST">
+                <div class="form-content">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" />
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" />
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" name="phone" />
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message"></textarea>
+                  <a href="#confirmation" class="cta-contact cta-involve"
+                    >send</a
+                  >
+                </div>
+              </form>
+            </section>
+            <section class="white-box white-box-info">
+              <h2>contact info</h2>
+              <div>
+                <div class="info-title">location</div>
+                <p class="address-space">Community Science Museum</p>
+                <p>
+                  Vestre Holbergsallmenningen <br />
+                  5011 Bergen <br />
+                  Norway
+                </p>
               </div>
-            </form>
-          </section>
-          <section class="white-box white-box-info">
-            <h2>contact info</h2>
+              <div>
+                <div class="info-title">email</div>
+                <p>contact@csm.com</p>
+              </div>
+              <div>
+                <div class="info-title">phone</div>
+                <p>+47 00009999</p>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div id="confirmation" class="overlay">
+          <div class="popup">
             <div>
-            <div class="info-title">location</div>
-            <p class="address-space">Community Science Museum</p>
-            <p>Vestre Holbergsallmenningen <br>
-           5011 Bergen <br> 
-          Norway</p>
-        </div>
-        <div>
-          <div class="info-title">email</div>
-          <p>contact@csm.com</p>
-        </div>
-        <div>
-          <div class="info-title">phone</div>
-          <p>+47 00009999</p>
-        </div>
-          </section>
-        </div>
-      </div>
-      <div id="confirmation" class="overlay">
-        <div class="popup">
-          <div>
-            <h2>your Message is sent!
-            </h2>
+              <h2>your Message is sent!</h2>
               <div class="popup-button">
-                <a href="#" class="cta-contact cta-involve">close</a>
+                <a href="#form" class="cta-contact cta-involve">close</a>
               </div>
             </div>
           </div>

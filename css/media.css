@@ -6,6 +6,16 @@
 
 /*very small screens*/
 @media (max-width: 375px) {
+/*header shadow*/
+.shadow-box {
+  background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) );
+}
+
+/*visit header button size*/
+.first-icon, .button-text, .last-icon {
+  padding: 0 20px;
+}
+
   /*bio and medicine title*/
   .biomed-small {
     display: block;
@@ -67,11 +77,6 @@
     width: 100%;
     -webkit-box-shadow: none;
     box-shadow: none;
-  }
-
-  .visit-box_content {
-    width: 202px;
-    align-self: self-end;
   }
 
   .visit-box_location {
@@ -254,7 +259,7 @@
 
   /*Header visit page*/
   .header-content_visit {
-    margin-bottom: 3em;
+    margin-bottom: 5em;
   }
 
   /*Main Section home page*/
@@ -281,11 +286,12 @@
   }
 
   .white-box-visit {
+    padding: 3em 1em 1em 1em;
     margin: 0;
   }
 
   .information {
-    padding: 11em 0 1em;
+    padding: 15em 0 1em;
   }
 
   .info-content {

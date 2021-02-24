@@ -106,7 +106,6 @@ img {
 
 .logo > span {
   padding-left: 10px;
-  font-size: smaller;
 }
 
 .regular {
@@ -259,10 +258,6 @@ header {
   box-shadow: 1px 1px 8px 2px rgb(0 0 0 / 25%);
   padding: 1em;
   margin: 0.5em 0em 1.5em;
-  display: flex;
-  font-size: small;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .address-space {
