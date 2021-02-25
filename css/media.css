@@ -6,15 +6,21 @@
 
 /*very small screens*/
 @media (max-width: 375px) {
-/*header shadow*/
-.shadow-box {
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) );
-}
+  /*header shadow*/
+  .shadow-box {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 35%,
+      rgba(0, 0, 0, 1)
+    );
+  }
 
-/*visit header button size*/
-.first-icon, .button-text, .last-icon {
-  padding: 0 20px;
-}
+  /*visit header button size*/
+  .first-icon,
+  .button-text,
+  .last-icon {
+    padding: 0 20px;
+  }
 
   /*bio and medicine title*/
   .biomed-small {
@@ -25,10 +31,17 @@
   }
   /*Contact button on get involved page*/
   .cta-involve-narrow {
-    padding: 2em 1.2em;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-envelope-involve {
+    margin-top: 0.6em;
   }
 }
 
+/*tablet size*/
 @media (min-width: 900px) {
   /*Navigation bar*/
   .logo span {
@@ -198,9 +211,9 @@
   }
 }
 
+/*Desktop size*/
 @media (min-width: 1225px) {
   /*Global*/
-  html,
   p {
     font-size: 100%;
   }
@@ -399,6 +412,7 @@
   }
 }
 
+/*Desktop frame*/
 @media (min-width: 1500px) {
   .container {
     margin-bottom: 4em;

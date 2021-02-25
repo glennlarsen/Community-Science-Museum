@@ -61,7 +61,7 @@ table th {
 
 .info-list h3 {
   display: list-item;
-  font-size: large;
+  font-size: 1.2em;
   text-align: left;
   color: var(--light-blue);
 }
@@ -88,5 +88,3 @@ table th {
   font-weight: bold;
   font-style: normal;
 }
-
-

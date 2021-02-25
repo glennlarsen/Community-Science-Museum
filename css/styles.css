@@ -61,7 +61,7 @@ h3 {
 }
 
 h3 {
-  font-size: x-large;
+  font-size: 1.5em;
 }
 
 h4 {
@@ -69,7 +69,6 @@ h4 {
 }
 
 p {
-  font-family: var(--text-pharagraph);
   font-size: 0.94em;
 }
 
@@ -183,40 +182,6 @@ header {
   font-family: var(--text-pharagraph);
   color: var(--light-blue);
   font-weight: bold;
-}
-
-.header-corner_box {
-  position: absolute;
-  right: 0;
-  top: 0;
-  max-width: 200px;
-  background: white;
-  font-size: small;
-  font-style: italic;
-  padding: 117px;
-  border-radius: 0 0 0 100%;
-  display: none;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.header-box_quote {
-  position: absolute;
-  top: 20px;
-  max-width: 72%;
-  left: 56px;
-  color: var(--dark-blue);
-  font-weight: 500;
-}
-
-.header-box_quoter {
-  position: absolute;
-  top: 148px;
-  max-width: 72%;
-  left: 112px;
-  font-weight: bold;
-  font-style: normal;
-  color: var(--dark-green);
 }
 
 /*circle images*/

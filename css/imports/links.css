@@ -104,18 +104,15 @@ nav a:hover {
   padding: 2em 2em;
   font-weight: bold;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
 }
 
-.cta-involve-line {
-  border: solid 1px;
-  width: 65%;
-  margin: 1em auto 0;
-  color: var(--light-blue);
-  z-index: 100;
+.fa-envelope-involve {
+  margin-left: 0.6em;
 }
 
-.cta-involve:hover,
-.cta-involve:hover .cta-involve-line {
+.cta-involve:hover {
   background-color: var(--light-blue);
   color: white;
   transition: 0.7s;

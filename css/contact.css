@@ -10,7 +10,7 @@ header {
   background-color: white;
 }
 
-.white-box {
+.white-box-contact {
   display: block;
   font-size: 100%;
   color: var(--dark-green);
@@ -40,7 +40,7 @@ textarea:focus {
   min-height: 130px;
 }
 
-.white-box-info >* {
+.white-box-info > * {
   padding-bottom: 1em;
 }
 
