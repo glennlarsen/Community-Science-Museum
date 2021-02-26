@@ -5,7 +5,7 @@
 }
 
 /*very small screens*/
-@media (max-width: 375px) and (orientation : landscape) {
+@media screen and (max-width: 375px) {
   /*header shadow*/
   .shadow-box {
     background: linear-gradient(
@@ -42,7 +42,7 @@
 }
 
 /*tablet size*/
-@media (min-width: 900px) and (orientation : landscape) {
+@media screen and (min-width: 900px) {
   /*Navigation bar*/
   .logo span {
     font-size: medium;
@@ -212,7 +212,7 @@
 }
 
 /*Desktop size*/
-@media (min-width: 1225px) and (orientation : landscape) {
+@media screen and (min-width: 1225px) {
   /*Global*/
   p {
     font-size: 100%;
@@ -412,7 +412,7 @@
 }
 
 /*Desktop frame*/
-@media (min-width: 1500px) {
+@media screen and (min-width: 1500px) {
   .container {
     margin-bottom: 4em;
   }
