@@ -41,6 +41,22 @@ header {
   padding: 1em;
 }
 
+.exhibition-text-cos, .exhibition-text-eco {
+  max-height: 232px;
+}
+
+.exhibition-text-evo {
+  max-height: 288px;
+}
+
+.exhibition-text-bio {
+  max-height: 376px;
+}
+
+.exhibition-text-rob {
+  max-height: 144px;
+}
+
 .title-blue {
   color: var(--darker-blue);
 }
