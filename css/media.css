@@ -90,6 +90,7 @@
     width: 100%;
     -webkit-box-shadow: none;
     box-shadow: none;
+    justify-content: center;
   }
 
   .visit-box_location {
