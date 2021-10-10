@@ -54,6 +54,18 @@ textarea:focus {
   padding-bottom: 0.5em;
 }
 
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.8rem;
+}
+
+.form-succes {
+  display: none;
+  color: green;
+  font-size: 0.8rem;
+}
+
 /*overlay pop up window*/
 .overlay {
   position: fixed;
@@ -87,4 +99,8 @@ textarea:focus {
   display: flex;
   justify-content: center;
   margin: 20px;
+}
+
+.close-button {
+  opacity: 1;
 }

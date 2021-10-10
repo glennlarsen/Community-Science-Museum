@@ -74,19 +74,30 @@
         <div class="background-container-contact">
           <div class="white-boxes white-boxes-info text-black">
             <section id="form" class="white-box white-box-contact">
-              <form method="POST">
+              <form id="contactForm" method="POST">
                 <div class="form-content">
                   <label for="name">Name</label>
                   <input type="text" id="name" name="name" />
+                  <div class="form-error" id="nameError">
+                    Please enter your name
+                  </div>
                   <label for="email">Email</label>
                   <input type="email" id="email" name="email" />
+                  <div class="form-error" id="emailError">
+                    Please enter a valid email address
+                  </div>
                   <label for="phone">Phone</label>
                   <input type="tel" id="phone" name="phone" />
+                  <div class="form-error" id="phoneError">
+                    Please enter a valid phone number
+                  </div>
                   <label for="message">Message</label>
                   <textarea name="message" id="message"></textarea>
-                  <a href="#confirmation" class="cta-contact cta-involve"
-                    >send</a
-                  >
+                  <button disabled type="submit" class="cta-contact cta-involve"
+                    >send</button>
+                    <div class="form-error" id="messageError">
+                      Please enter a message (Minimum 10 characters)
+                    </div>
                 </div>
               </form>
             </section>
@@ -117,7 +128,7 @@
             <div>
               <h2>your Message is sent!</h2>
               <div class="popup-button">
-                <a href="#form" class="cta-contact cta-involve">close</a>
+                <button class="cta-contact cta-involve close-button">close</button>
               </div>
             </div>
           </div>
@@ -161,5 +172,6 @@
         </p>
       </footer>
     </div>
+    <script src="js/formValidation.js"></script>
   </body>
 </html>

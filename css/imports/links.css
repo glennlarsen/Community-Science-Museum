@@ -124,6 +124,7 @@ nav a:hover {
   padding: 1em 2em;
   font-size: 1.2em;
   border-width: 3px;
+  opacity: .4;
 }
 
 /*Footer Links*/
