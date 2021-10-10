@@ -101,6 +101,11 @@ img {
 .logo {
   display: flex;
   align-items: center;
+  transition: 1s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
 }
 
 .logo > span {
@@ -122,6 +127,7 @@ img {
 .fa-bars:hover {
   transition: 0.3s;
   transform: scale(1.4);
+  cursor: pointer;
 }
 
 #hamburger-menu:checked ~ nav {
